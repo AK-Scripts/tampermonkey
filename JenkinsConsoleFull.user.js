@@ -19,7 +19,6 @@ jQuery(function() {
     if(title.indexOf('console output') > -1){
       consoleTask = jQuery(task);
       newTask = consoleTask.clone();
-      newTask.innerText = "Full Console Output";
       var newTaskLinks = newTask.find('a');
       
       for (var j = 0; j < newTaskLinks.length; j++) {
